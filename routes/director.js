@@ -66,6 +66,24 @@ router.get("/:director_id",(req,res)=>{
             res.json(err)
         })
 })
+router.put("/:director_id",(req,res)=>{
+    Director.findByIdAndUpdate(req.params.director_id,req.body,{new:true})
+        .then((data)=>{
+            res.json(data)
+        })
+        .catch((err)=>{
+            res.json(err)
+        })
+})
+router.delete("/:director_id",(req, res) => {
+    Director.findByIdAndRemove(req.params.director_id)
+        .then((data)=>{
+            res.json({status:1})
+        })
+        .catch((err)=>{
+            res.json(err)
+        })
+})
 router.get("/",(req,res)=>{
     Director.aggregate([
         {
