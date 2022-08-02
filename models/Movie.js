@@ -5,20 +5,30 @@ const Schema = mongoose.Schema
 const MovieSchema = new Schema({
     title:{
         type:String,
-        required:true,
+        required:[true,"`{PATH}` alanı zorunlu"],
+        maxLength:[15,"{PATH} -- ({VALUE}) en fazla  , ({MAXLENGTH}) karakter girebilirsiniz"],
+        minLength:[2,"{PATH} -- ({VALUE}) en az  , ({MINLENGTH}) karakter girebilirsiniz"]
 
     },
     category:{
-        type:String
+        type:String,
+        maxLength: 30,
+        minLength: 1
     },
     country:{
-        type:String
+        type:String,
+        maxLength: 30,
+        minLength: 1
     },
     year:{
-        type:Number
+        type:Number,
+        max:2040,
+        min:1900
     },
     imdb_score:{
-        type:Number
+        type:Number,
+        max: 10,
+        min: 0
     },
     director_id:Schema.Types.ObjectId,
     createdAt:{

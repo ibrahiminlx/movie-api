@@ -5,8 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const bodyParser = require("body-parser")
 
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+
 const movieRouter = require('./routes/movie');
 const directorRouter = require('./routes/director');
 
@@ -14,6 +13,10 @@ const app = express();
 
 //db collection
 const db = require("./helper/db")()
+//config
+
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -27,8 +30,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
 app.use('/api/movies', movieRouter);
 app.use('/api/directors', directorRouter);
 

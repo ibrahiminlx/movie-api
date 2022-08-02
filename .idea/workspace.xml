@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4808e42e-89db-4881-bb71-14305deb0a8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/director.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/director.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Director.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Director.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659259994180</updated>
       <workItem from="1659259995395" duration="1001000" />
-      <workItem from="1659284135675" duration="12745000" />
+      <workItem from="1659284135675" duration="13694000" />
+      <workItem from="1659371024653" duration="7874000" />
     </task>
     <servers />
   </component>
