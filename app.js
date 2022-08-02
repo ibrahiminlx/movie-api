@@ -8,6 +8,7 @@ const bodyParser = require("body-parser")
 
 const movieRouter = require('./routes/movie');
 const directorRouter = require('./routes/director');
+const indexRouter = require("./routes/index")
 
 const app = express();
 
@@ -30,7 +31,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+app.use("/",indexRouter)
 app.use('/api/movies', movieRouter);
 app.use('/api/directors', directorRouter);
 
