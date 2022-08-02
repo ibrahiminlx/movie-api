@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4808e42e-89db-4881-bb71-14305deb0a8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/movie.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/movie.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/movie.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="C:\yazılım\nodejs\learning-2\movie-api\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.post movie">
+  <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -128,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.post movie" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Mocha.post movie" />
         <item itemvalue="npm.test" />
         <item itemvalue="Mocha.post movie.should post a movie" />
         <item itemvalue="Mocha.node server.get api movies " />
@@ -148,7 +147,7 @@
       <workItem from="1659284135675" duration="13694000" />
       <workItem from="1659371024653" duration="8209000" />
       <workItem from="1659451066809" duration="374000" />
-      <workItem from="1659452848212" duration="3101000" />
+      <workItem from="1659452848212" duration="4014000" />
     </task>
     <servers />
   </component>
